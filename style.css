@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 40vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    /* height: 80vh; */
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.link-logo {
+    display: flex;
+}
+
+.link-simbolo {
+    display: flex;
+}
+
+.apex-logo {
+    height: 10vh;
+    width: 20vh;
+    padding: 2vh 0vh 3vh 1vh;
+}
+
+.apex-simbolo {
+    height: 10vh;
+    padding: 3vh 6vh 5vh 5vh;
+}
+
+.titulo {
+    display: none;
+}
+
+.busca {
+    display: flex;
+    justify-content: center;
+    background-color: #E30613;
+    padding: 1vh;
+}
+
+.input {
+    border: 0 0;
+    border-color: black;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+    border: 0 0;
+    border-color: black;
+    border-radius: 0px 10px 3px 0px;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    align-items: flex-end;
+    background-color: #E30613;
+    border-radius: 50px;
+    height: 30vh;
+    width: 50vw;
+    justify-content: space-between;
+    padding: 2vh;
+    margin: 4vh;
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Gill Sans', sans-serif;
+    font-variant: small-caps;
+    font-size: 1.7vw;
+    width: 40vw;
+    padding-bottom: 2vh;
+}
+
+li {
+    padding-bottom: 0.6vh;
+    height: 4vh;
+}
+
+.lenda {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    justify-content: center;
+    padding: 5vh 0vh 3vh 0vh;
+}
+
+.socialMedia {
+    height: 6vh;
+}
+
+.info {
+    padding-right: 2vw;
+}
+
+#copyright {
+    padding-right: 20vw;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+ul {
+    font-size: 1.5vw;
+}
+}
+
+@media screen and (max-width: 800px) {
+ul {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.footer {
+    font-size: 10px;
+}
+
+.info {
+    padding-right: 2vw;
+}
+
+#copyright {
+    padding-right: 12vw;
+}
+}
